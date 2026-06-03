@@ -56,7 +56,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      <ProductGrid h1Style={{ backgroundColor: "#e60f0f", color: "#151414" }} />
+      <ProductGrid h1Style={{ backgroundColor: "#e60f0f", color: "#151414" }} h1Text="Discover Products" />
       <Newsletter />
     </main>
   );
