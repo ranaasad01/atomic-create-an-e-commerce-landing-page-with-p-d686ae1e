@@ -20,10 +20,7 @@ export default function Hero() {
             </div>
 
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-white leading-tight tracking-tight mb-6" style={{ backgroundColor: '#e60f0f', color: '#151414' }}>
-              Discover Products{" "}
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-indigo-400 to-purple-400">
-                You&apos;ll Love
-              </span>
+              Discover Products with us
             </h1>
 
             <p className="text-lg text-slate-300 leading-relaxed mb-8 max-w-lg">
