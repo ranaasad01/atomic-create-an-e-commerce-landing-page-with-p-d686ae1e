@@ -35,7 +35,7 @@ export default function HomePage() {
       <section className="bg-white border-b border-slate-100">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
           <div className="grid grid-cols-2 lg:grid-cols-4 gap-6">
-            {perks.map((perk) => {
+            {perks.map((perk, index) => {
               const Icon = perk.icon;
               return (
                 <div key={perk.title} className="flex items-start gap-3">
@@ -46,6 +46,9 @@ export default function HomePage() {
                     <p className="text-sm font-semibold text-slate-900">{perk.title}</p>
                     <p className="text-xs text-slate-500 mt-0.5 leading-relaxed">{perk.description}</p>
                   </div>
+                  {index === 3 && (
+                    <a style={{ fontFamily: "DM Sans", fontSize: "30px" }}></a>
+                  )}
                 </div>
               );
             })}
