@@ -19,7 +19,7 @@ export default function Hero() {
               <span className="text-indigo-300 text-sm font-medium">Summer Sale — Up to 40% Off</span>
             </div>
 
-            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-white leading-tight tracking-tight mb-6">
+            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-white leading-tight tracking-tight mb-6" style={{ backgroundColor: '#e60f0f', color: '#151414' }}>
               Discover Products {" "}
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-indigo-400 to-purple-400">
                 You&apos;ll Love
@@ -73,14 +73,14 @@ export default function Hero() {
             <div className="space-y-4">
               <div className="rounded-2xl overflow-hidden aspect-[4/5] bg-slate-800">
                 <img
-                  src="https://m.media-amazon.com/images/I/61RahTQtAqL._AC_UF894,1000_QL80_.jpg"
+                  src="https://titoaistorageaccount.blob.core.windows.net/titoai-storage/assets/d686ae1e-2d53-4c84-8a11-a0e3301ca994/d709a736e30b4e4982894e8bd8f4fe3b.png"
                   alt="Wireless Headphones"
                   className="w-full h-full object-cover"
                 />
               </div>
               <div className="rounded-2xl overflow-hidden aspect-square bg-slate-800">
                 <img
-                  src="https://m.media-amazon.com/images/I/61RahTQtAqL._AC_UF894,1000_QL80_.jpg"
+                  src="https://titoaistorageaccount.blob.core.windows.net/titoai-storage/assets/d686ae1e-2d53-4c84-8a11-a0e3301ca994/d709a736e30b4e4982894e8bd8f4fe3b.png"
                   alt="Leather Watch"
                   className="w-full h-full object-cover"
                 />
